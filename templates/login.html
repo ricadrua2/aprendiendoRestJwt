@@ -1,0 +1,6 @@
+<form method="POST">
+    {% csrf_token %}<!-- este es por que se utiliza el metodo post -->
+    {{ form }} 
+    <button type="submit">login</button>
+
+</form>
